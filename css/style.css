@@ -22,6 +22,9 @@ html {
   html::-webkit-scrollbar-thumb {
     background: #29D9D5; }
 
+section {
+  padding: 3rem 9%; }
+
 body {
   background: #111;
   overflow-x: hidden; }
@@ -72,11 +75,44 @@ body {
   cursor: pointer;
   display: none; }
 
+.home {
+  margin: 0 auto;
+  margin-top: 9rem;
+  width: 90%;
+  border-radius: 1rem;
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)) url(../images/home-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5rem; }
+  .home .content {
+    text-align: center; }
+    .home .content span {
+      font-weight: bolder;
+      color: transparent;
+      -webkit-text-stroke: 0.1rem #fff;
+      font-size: 4vw;
+      display: block; }
+    .home .content h3 {
+      font-size: 6vw;
+      color: #fff; }
+    .home .content p {
+      max-width: 60rem;
+      margin: 1rem auto;
+      font-size: 1.4rem;
+      color: #aaa;
+      line-height: 2; }
+
 @media (max-width: 991px) {
   html {
     font-size: 55%; }
   .header {
-    padding: 1.5rem 2rem; } }
+    padding: 1.5rem 2rem; }
+  section {
+    padding: 3rem 2%; } }
 
 @media (max-width: 768px) {
   #menu-btn {
