@@ -310,6 +310,27 @@ section {
             padding-right: .5rem;
             color: #29D9D5; }
 
+.banner {
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../images/banner-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 3rem 2rem;
+  background-attachment: fixed;
+  text-align: center; }
+  .banner .content span {
+    font-size: 2rem;
+    color: #29D9D5; }
+  .banner .content h3 {
+    font-size: 4rem;
+    color: #fff;
+    margin-top: 1rem; }
+  .banner .content p {
+    max-width: 60rem;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+    color: #aaa;
+    line-height: 2; }
+
 .footer .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -406,4 +427,6 @@ section {
   html {
     font-size: 50%; }
   .about .content h3 {
-    font-size: 3.5rem; } }
+    font-size: 3.5rem; }
+  .banner .content h3 {
+    font-size: 2.7rem; } }
