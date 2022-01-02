@@ -186,42 +186,67 @@ section {
       color: #aaa;
       line-height: 2; }
 
-.box-container {
+.destination .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
   gap: 1.5rem; }
-  .box-container .box {
+  .destination .box-container .box {
     border-radius: 1rem;
     overflow: hidden;
     background: rgba(17, 17, 17, 0.7); }
-    .box-container .box:hover img {
+    .destination .box-container .box:hover img {
       transform: scale(1.1); }
-    .box-container .box .image {
+    .destination .box-container .box .image {
       height: 20rem;
       overflow: hidden;
       width: 100%; }
-      .box-container .box .image img {
+      .destination .box-container .box .image img {
         height: 100%;
         width: 100%;
         object-fit: cover; }
-    .box-container .box .content {
+    .destination .box-container .box .content {
       padding: 2rem;
       text-align: center; }
-      .box-container .box .content h3 {
+      .destination .box-container .box .content h3 {
         font-size: 2rem;
         color: #fff; }
-      .box-container .box .content p {
+      .destination .box-container .box .content p {
         padding: 1rem 0;
         font-size: 1.4rem;
         color: #aaa;
         line-height: 2; }
-      .box-container .box .content a {
+      .destination .box-container .box .content a {
         font-size: 1.7rem;
         color: #29D9D5; }
-        .box-container .box .content a:hover i {
+        .destination .box-container .box .content a:hover i {
           padding-left: 1rem; }
-        .box-container .box .content a i {
+        .destination .box-container .box .content a i {
           padding-right: .5rem; }
+
+.services .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  gap: 1.5rem; }
+  .services .box-container .box {
+    background: #222;
+    border-radius: 1rem;
+    padding: 3rem;
+    text-align: center;
+    border: 0.2rem solid #111; }
+    .services .box-container .box:hover {
+      border: 0.2rem solid #29D9D5; }
+    .services .box-container .box i {
+      font-size: 4rem;
+      color: #29D9D5;
+      margin-bottom: 2rem; }
+    .services .box-container .box h3 {
+      font-size: 2rem;
+      color: #fff; }
+    .services .box-container .box p {
+      padding: 1rem 0;
+      font-size: 1.4rem;
+      color: #aaa;
+      line-height: 2; }
 
 @media (max-width: 991px) {
   html {
