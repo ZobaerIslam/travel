@@ -40,11 +40,12 @@ html {
     }
 
     &::-webkit-scrollbar-track {
-        background: black;
+        background: $black;
     }
 
     &::-webkit-scrollbar-thumb {
         background: $blue;
+        border-radius: 5rem;
     }
 }
 
